@@ -1,4 +1,6 @@
+---
 - project:
     check:
       jobs:
-        - noop
+        - whitebox-multinode-tripleo:
+            nodeset: two-centos-8-nodes
