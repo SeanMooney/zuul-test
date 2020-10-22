@@ -1,4 +1,5 @@
+---
 - project:
     check:
       jobs:
-        - noop
+        - tripleo-ci-centos-8-standalone
